@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ECAB48">
+
+
+    <!-- 맨 위에 툴바 레이아웃 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/MainLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:text="친구"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_style"
+            android:text="검색"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/add_friend_btn"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_style"
+            android:text="추가"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_style"
+            android:text="설정"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <!-- 자신의 프로필 정보 및 친구 리스트 보여주는 레이아웃-->
+    <FrameLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 맨 아래 툴바 레이아웃 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/change_friend_fragment_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:background="@drawable/button_style"
+            android:layout_gravity="center"
+            android:text="친구"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/change_chat_fragment_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:background="@drawable/button_style"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="채팅"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/change_extra_fragment_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:background="@drawable/button_style"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="더보기"
+            android:textColor="#000000"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/friend_fragment"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECAB48">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/curUser_profileImg"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/curUser_profileImg"
+        android:text="이름"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/curUser_profileImg"
+        android:text="닉네임"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:layout_below="@+id/text_name"
+        android:layout_marginLeft="15dp"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/curUser_profileImg"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"/>
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
+
