@@ -40,12 +40,12 @@ Firebase의 realtime database를 이용하여 실시간 채팅 구현
 <br>
 
 ## 앱 화면
-<img src="https://user-images.githubusercontent.com/50730897/163184795-c58261c6-abd4-4eff-a856-6d95befd634d.jpg" width="300" height="500">
-<img src="https://user-images.githubusercontent.com/50730897/163184801-38daad1f-9df7-4b45-a80b-2122d010f101.jpg" width="300" height="500">
-<img src="https://user-images.githubusercontent.com/50730897/163184800-4053ee23-5510-464e-aa68-c11449639ce5.jpg" width="300" height="500">
-<img src="https://user-images.githubusercontent.com/50730897/163184799-77755620-5f9c-4144-b54b-f06290ff6519.jpg" width="300" height="500">
-<img src="https://user-images.githubusercontent.com/50730897/163184790-08034c99-88bf-40d9-9675-ee3160e5faf4.jpg" width="300" height="500">
-<img src="https://user-images.githubusercontent.com/50730897/163184787-89156a54-8b76-435f-a0a7-f95e4533ed36.jpg" width="300" height="500">
+<img src="https://user-images.githubusercontent.com/50730897/163184795-c58261c6-abd4-4eff-a856-6d95befd634d.jpg" width="300" height="500" align="left">
+<img src="https://user-images.githubusercontent.com/50730897/163184801-38daad1f-9df7-4b45-a80b-2122d010f101.jpg" width="300" height="500" align="left">
+<img src="https://user-images.githubusercontent.com/50730897/163184800-4053ee23-5510-464e-aa68-c11449639ce5.jpg" width="300" height="500" align="left">
+<img src="https://user-images.githubusercontent.com/50730897/163184799-77755620-5f9c-4144-b54b-f06290ff6519.jpg" width="300" height="500" align="left">
+<img src="https://user-images.githubusercontent.com/50730897/163184790-08034c99-88bf-40d9-9675-ee3160e5faf4.jpg" width="300" height="500" align="left">
+<img src="https://user-images.githubusercontent.com/50730897/163184787-89156a54-8b76-435f-a0a7-f95e4533ed36.jpg" width="300" height="500" align="left">
 
 
 
