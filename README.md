@@ -1,6 +1,7 @@
 ## 프로젝트 내용
 
 ---
+<br>
 
 ## Introduction
 
@@ -11,6 +12,7 @@ Firebase Firestore, Firebase Autentication, FIrebase Storage, Firebase Realtime 
 로그인, 회원가입, 프로필 설정, 채팅 등 기능을 구현했습니다.
 
 ---
+<br>
 
 ## 주요 기능
 
@@ -35,18 +37,16 @@ Firebase의 realtime database를 이용하여 실시간 채팅 구현
 해당 채팅방의 database reference를 가져와 data 변동이 있으면 이를 바로 알리고 ListView Adapter를 통해 내용 갱신
 
 ---
+<br>
 
 ## 앱 화면
+<img src="https://user-images.githubusercontent.com/50730897/163184795-c58261c6-abd4-4eff-a856-6d95befd634d.jpg" width="300" height="500">
+<img src="https://user-images.githubusercontent.com/50730897/163184801-38daad1f-9df7-4b45-a80b-2122d010f101.jpg" width="300" height="500">
+<img src="https://user-images.githubusercontent.com/50730897/163184800-4053ee23-5510-464e-aa68-c11449639ce5.jpg" width="300" height="500">
+<img src="https://user-images.githubusercontent.com/50730897/163184799-77755620-5f9c-4144-b54b-f06290ff6519.jpg" width="300" height="500">
+<img src="https://user-images.githubusercontent.com/50730897/163184790-08034c99-88bf-40d9-9675-ee3160e5faf4.jpg" width="300" height="500">
+<img src="https://user-images.githubusercontent.com/50730897/163184787-89156a54-8b76-435f-a0a7-f95e4533ed36.jpg" width="300" height="500">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/36ae14f9-265a-4bae-8f78-c014ab56a906/Untitled.jpeg)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9d8a58f-8368-4e24-abbc-303aac623777/Untitled.jpeg)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a71639f1-6196-4fa7-9871-138f89ec753c/Untitled.jpeg)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/892acf4d-370d-4fcf-af34-f48031a98029/Untitled.jpeg)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/07948828-82d6-4cf2-b196-184f3c6329e6/Untitled.jpeg)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad7ecad1-0f09-4d89-b5c0-dc29fd1a0da3/Untitled.jpeg)
 
